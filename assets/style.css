@@ -307,6 +307,23 @@ h1 {
   }
 }
 @media screen and (max-width: 600px) {
+    p, h2, h3, h4, h5{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.caption-text{
+  font-size: 10px;
+}
+li {
+    text-align: center;
+}
+#realisation{
+    margin-top: 30%;
+}
+    h1 {
+        font-size: 40px;
+    }
 img {
     height: 150px;
     border: solid 1px;
@@ -316,7 +333,14 @@ img {
 div.img{
   float: left;
   padding-left: 40px;
-
-
+}
+#texte {
+    margin-top: 65px;
+    font-size: 25px;
+}
+#texte1 {
+    margin-top: 65px;
+    font-size: 20px;
+    margin-top: 80px;
 }
 }
