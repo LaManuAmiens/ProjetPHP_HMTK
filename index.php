@@ -1,4 +1,7 @@
-
+<?php 
+   $fichier = 'source.xml';
+   $xml = simplexml_load_file($fichier) or die("Error: Cannot create object");
+   ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,10 +12,10 @@
     </head>
     <body>
         <div class="topnav" id="myTopnav">
-            <a href="index.php?id=0.html">Acceuil</a>
-            <a href="index.php?id=1.html">Qui sommes-nous ?</a>
-            <a href="index.php?id=2.html">Nos clients témoignent</a>
-            <a class="nav-link" href="index.php?id=3.html">Contacts</a>
+            <a href="index.php?id=0.html"><?= $xml->page[0]->title ;?></a>
+            <a href="index.php?id=1.html"><?= $xml->page[1]->title ;?></a>
+            <a href="index.php?id=2.html"><?= $xml->page[2]->title ;?></a>
+            <a class="nav-link" href="index.php?id=3.html"><?= $xml->page[3]->title ;?></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -20,30 +23,24 @@
         <div class="container-fluid">
             <div class="jumbotron">
                 <?php 
-                $fichier = 'source.xml';
-                $xml = simplexml_load_file($fichier) or die("Error: Cannot create object");
-                                     
-                 if($_GET['id'] == '1.html'){?>
-                                
-                <title><?= $xml->page[1]->title ;?></title>
+                                               
+                 if($_GET['id'] == '1.html'){?>                                
+                
                 <p><?= $xml->page[1]->content ;?></p>
+                
                 <?php      
-                 }else if ($_GET['id'] == '2.html'){
+                 }else if ($_GET['id'] == '2.html'){?>
                 
-                     echo $xml->page[2]->menu .
-                            $xml->page[2]->title .
-                            $xml->page[2]->content ;
-               
-                }else if ($_GET['id'] == '3.html'){
+                <p><?= $xml->page[2]->content ;?></p>
+               <?php 
+                }else if ($_GET['id'] == '3.html'){?>
                 
-                     echo $xml->page[3]->menu .
-                            $xml->page[3]->title .
-                            $xml->page[3]->content ;
-               
-                }else{
-                    
-                      echo $xml->page[0]->title .
-                            $xml->page[0]->content ;
+                <p><?= $xml->page[3]->content ;?></p>
+                <?php
+                }else{?>
+                
+                <p><?= $xml->page[0]->content ;?></p>
+            <?php
                 }   
                 ?>
             </div>
