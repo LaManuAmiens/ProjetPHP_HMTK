@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <website>
     <page id="1">
-        <menu>Accueil</menu>
+       <menu>Accueil</menu> 
         <title>Accueil - Maçonnerie Ocordo</title>
         <content><![CDATA[<h1>Maçonnerie Ocordo</h1>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
@@ -90,6 +90,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <li>Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li>Ou compétez le formulaire ci-dessous :</li>
 </ul>
+            <div id="center">
 <div role="form">
     <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate">
         <label>Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required" type="text">
@@ -103,6 +104,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <label>Votre message * :</label>
         <textarea name="your-message" cols="40" rows="10" class="form-control textarea validates-as-required"  ></textarea>
     </form>
+            </div>
 </div>]]></content>
     </page>
 </website>

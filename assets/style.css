@@ -1,23 +1,37 @@
 body {
     background-color: black;
-   
+
 }
 p, h1, h2, h3, h4, h5{
     text-align: center;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    border-radius: 25px;
+    border: solid 1px;
 }
 li {
     text-align: center;
-   
 }
 img{
    margin-left: 39%;
-   
+}
+hr{
+  height: 2px;
+	border: 0;
+	color: black;
+	background-color: black;
+  width: 10%;
+}
+#center{
+  width: 700px;
+  text-align: center;
+}
+iframe{
+  margin-top: 12%;
 }
 .jumbotron{
-    background-color: yellow;
-} 
+    background-color: lightblue;
+}
 
 .topnav {
   overflow: hidden;
