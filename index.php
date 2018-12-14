@@ -27,8 +27,8 @@
                          
                  if($_GET['id'] == '1.html'){?>
                      
-                        <h1><?= $xml->page[1]->menu ;?></h1>
-                        <h1><?= $xml->page[1]->title ;?></h1>
+              
+                        <title><?= $xml->page[1]->title ;?></title>
                         <p><?= $xml->page[1]->content ;?></p>
                 <?php      
                  }else if ($_GET['id'] == '2.html'){
@@ -45,7 +45,7 @@
                
                 }else{
                     
-                      echo $xml->page[0]->menu .
+                      echo 
                             $xml->page[0]->title .
                             $xml->page[0]->content ;
                 }   
