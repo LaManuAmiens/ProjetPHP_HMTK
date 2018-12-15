@@ -30,7 +30,22 @@
             <div id="header">
                 <div id="logo">
                     <div id="logo_text">
+                        <div class="button_container" id="toggle">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
                         
+                        <div class="overlay" id="overlay">
+                            <nav class="overlay-menu">
+                                <ul>
+                                    <li><a href="index.php?id=0.html"><?= $xml->page[0]->menu ;?></a></li>
+                                    <li><a href="index.php?id=1.html"><?= $xml->page[1]->menu ;?></a></li>
+                                    <li><a href="index.php?id=2.html"><?= $xml->page[2]->menu ;?></a></li>
+                                    <li><a href="index.php?id=3.html"><?= $xml->page[3]->menu ;?></a></li>
+                                </ul>
+                            </nav>
+                        </div> 
                         <!-- class="logo_colour", allows you to change the colour of the text -->
                         <h1><a href="index.html">Maçonnerie<span class="logo_colour">Ocordo</span></a></h1>
                         <h2>Nous travaillons exclusivement pour les particuliers.</h2>
@@ -48,19 +63,19 @@
             <div id="site_content">
                 <div class="sidebar">
                     <div class="container-fluid">
-                        <img src="http://entreprisetocco.fr/sites/default/files/slide-sepia_0.png" width="100%" />
+                        <div class="img1"><img src="http://entreprisetocco.fr/sites/default/files/slide-sepia_0.png" width="100%" /></div>
                         <?php                                               
                          if($_GET['id'] == '1.html'){?>                                        
-                        <div class="jumbotron"><?= $xml->page[1]->content ;?></div>               
+                        <div><?= $xml->page[1]->content ;?></div>               
                         <?php      
                          }else if ($_GET['id'] == '2.html'){?>         
                         <div class="jumbotron"><?= $xml->page[2]->content ;?></div>
                        <?php 
                         }else if ($_GET['id'] == '3.html'){?>
-                        <div class="jumbotron"><?= $xml->page[3]->content ;?></div>
+                        <div><?= $xml->page[3]->content ;?></div>
                         <?php
                         }else{?>               
-                        <div class="jumbotron"><?= $xml->page[0]->content ;?></div> 
+                        <div><?= $xml->page[0]->content ;?></div> 
                     <?php
                         }   
                         ?>
@@ -70,8 +85,7 @@
             <div id="footer">
                 
             </div>
-        </div>
-        
+        </div>        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
