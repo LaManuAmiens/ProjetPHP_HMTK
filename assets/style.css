@@ -22,7 +22,7 @@ jumbotron{
     height: 100%;
 }
 .img0{
-      margin-left: 22%;
+    margin-left: 22%;
 }
 #carte {
     margin-right: 8%;
@@ -108,7 +108,7 @@ ul#menu li a
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
   background: #0D66A5;
-height: 100%;}
+  height: 100%;}
 
 #site_content
 { width: 880px;
@@ -152,172 +152,171 @@ height: 100%;}
 
 
 .img0 {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    
 }
 .img0:hover {
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
 .img1 {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
+    padding: 50px;
+    transition: transform .2s; /* Animation */
 }
 .img1:hover {
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 
 
 
 @media screen and (max-width: 870px){
-
-p{ padding: 0 0 20px 0;
-   line-height: 1.7em;
-text-align: center;}
-
-h1, h2, h3, h4, h5, h6 
-{ font: normal 125% 'Vollkorn', arial, sans-serif;
-  color: #43423F;
-  margin: 0 0 10px 0;
-  padding: 10px 0 5px 0;
-  text-align: center;}
-
-h2
-{ font: normal 115% 'century gothic', arial, sans-serif;
-  color: #1293EE;}
-
-h4, h5, h6
-{ margin: 0;
-  padding: 0 0 5px 0;
-  font: normal 110% arial, sans-serif;
-  color: #1293EE;}
-
-h5, h6
-{ font: italic 95% arial, sans-serif;
-  padding: 0 0 15px 0;
-  color: #000;}
-
-h6
-{ color: #362C20;}
-#texte{
-    text-align: center;
-}
-
-ul
-{ margin: 2px 0 22px 17px;}
-
-#main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto; 
-  margin-right: auto;}
-
-#header
-{ background-color:black; 
-  height: 340px;}
-iframe {
-    margin-left: 14%;
-}
-#logo
-{ width: 700px;
-  position: relative;
-  height: 168px;}
-
-#logo #logo_text 
-{ position: absolute; 
-  top: 20px;
-  left: 0;}
-
-#logo h1, #logo h2
-{ font: normal 300% 'century gothic', arial, sans-serif;
-  border-bottom: 0;
-  text-transform: none;
-  margin: 0;}
-
-#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
-{ padding: 22px 0 0 0;
-  color: #FFF;
-  letter-spacing: 0.1em;
-  text-decoration: none;}
-
-#logo_text h1 a .logo_colour
-{ color: #1293EE;}
-
-#logo_text h2
-{ font-size: 100%;
-  padding: 4px 0 10 0;
-  color: #DDD;}
-
-#menubar
-{ width: 70%;
-  height: 70%;
-  padding: 5;
-  background: #1293EE;} 
-
-ul#menu, ul#menu li
-{ float: left;
-  margin: 0; 
-  padding: 0;}
-
-ul#menu li
-{ list-style: none;}
-
-ul#menu li a
-{ letter-spacing: 0.1em;
-  font: normal 100% arial, sans-serif;
-  display: block; 
-  float: left; 
-  height: 37px;
-  padding: 29px 26px 6px 26px;
-  text-align: center;
-  color: #FFF;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: transparent;} 
-
-ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FFF;
-  background: #0D66A5;
-height: 100%;}
-
-#site_content
-{ width: 880px;
-  overflow: hidden;
-  
-  padding: 20px 24px 20px 37px;
-  background: #FFF;} 
-
-
-
-.sidebar li
-{ list-style: none; 
-  padding: 0 0 7px 0; 
-  text-align: center;}
-
-.sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 40px;
-  display: block;
-  background: transparent url(link.png) no-repeat left center;} 
-
-
-#footer
-{ width: 910px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
-  height: 53px;
-  padding: 24px 0 0px 0;
-  text-align: center; 
-  background: #1293EE;
-  color: #FFF;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;}
-
-#footer a
-{ color: #FFF;
-  text-decoration: none;}
-
-#footer a:hover
-{ color: #FFF;
-  text-decoration: underline;}
-
-    /* Rédigez vos propriétés CSS ici */
-
+    
+    p{ padding: 0 0 20px 0;
+       line-height: 1.7em;
+       text-align: center;}
+    
+    h1, h2, h3, h4, h5, h6 
+    { font: normal 125% 'Vollkorn', arial, sans-serif;
+      color: #43423F;
+      margin: 0 0 10px 0;
+      padding: 10px 0 5px 0;
+      text-align: center;}
+    
+    h2
+    { font: normal 115% 'century gothic', arial, sans-serif;
+      color: #1293EE;}
+    
+    h4, h5, h6
+    { margin: 0;
+      padding: 0 0 5px 0;
+      font: normal 110% arial, sans-serif;
+      color: #1293EE;}
+    
+    h5, h6
+    { font: italic 95% arial, sans-serif;
+      padding: 0 0 15px 0;
+      color: #000;}
+    
+    h6
+    { color: #362C20;}
+    #texte{
+        text-align: center;
+    }
+    
+    ul
+    { margin: 2px 0 22px 17px;}
+    
+    #main, #logo, #menubar, #site_content, #footer
+    { margin-left: auto; 
+      margin-right: auto;}
+    
+    #header
+    { background-color:black; 
+      height: 340px;}
+    iframe {
+        margin-left: 14%;
+    }
+    #logo
+    { width: 700px;
+      position: relative;
+      height: 168px;}
+    
+    #logo #logo_text 
+    { position: absolute; 
+      top: 20px;
+      left: 0;}
+    
+    #logo h1, #logo h2
+    { font: normal 300% 'century gothic', arial, sans-serif;
+      border-bottom: 0;
+      text-transform: none;
+      margin: 0;}
+    
+    #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+    { padding: 22px 0 0 0;
+      color: #FFF;
+      letter-spacing: 0.1em;
+      text-decoration: none;}
+    
+    #logo_text h1 a .logo_colour
+    { color: #1293EE;}
+    
+    #logo_text h2
+    { font-size: 100%;
+      padding: 4px 0 10 0;
+      color: #DDD;}
+    
+    #menubar
+    { width: 70%;
+      height: 70%;
+      padding: 5;
+      background: #1293EE;} 
+    
+    ul#menu, ul#menu li
+    { float: left;
+      margin: 0; 
+      padding: 0;}
+    
+    ul#menu li
+    { list-style: none;}
+    
+    ul#menu li a
+    { letter-spacing: 0.1em;
+      font: normal 100% arial, sans-serif;
+      display: block; 
+      float: left; 
+      height: 37px;
+      padding: 29px 26px 6px 26px;
+      text-align: center;
+      color: #FFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: transparent;} 
+    
+    ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+    { color: #FFF;
+      background: #0D66A5;
+      height: 100%;}
+    
+    #site_content
+    { width: 880px;
+      overflow: hidden;
+      
+      padding: 20px 24px 20px 37px;
+      background: #FFF;} 
+    
+    
+    
+    .sidebar li
+    { list-style: none; 
+      padding: 0 0 7px 0; 
+      text-align: center;}
+    
+    .sidebar li a, .sidebar li a:hover
+    { padding: 0 0 0 40px;
+      display: block;
+      background: transparent url(link.png) no-repeat left center;} 
+    
+    
+    #footer
+    { width: 910px;
+      font: normal 100% 'lucida sans unicode', arial, sans-serif;
+      height: 53px;
+      padding: 24px 0 0px 0;
+      text-align: center; 
+      background: #1293EE;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;}
+    
+    #footer a
+    { color: #FFF;
+      text-decoration: none;}
+    
+    #footer a:hover
+    { color: #FFF;
+      text-decoration: underline;}
+    
+    
 }
