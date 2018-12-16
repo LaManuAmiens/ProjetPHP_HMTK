@@ -81,11 +81,13 @@
                         ?>
                     </div>
                 </div>               
-            </div>            
+            </div>   
             <div id="footer">
-                
-            </div>
-        </div>        
+                <span style="display:block;font-size:0.9em;line-height:55px;">
+                    <span style="display:inline-block;">&copy; <span style="font-family:'Titillium Web';font-weight:900;letter-spacing:0.06em">LA MANU</span> Design 2018</span></span>
+                <span style="display:block;font-size:0.7em;line-height:30px;margin-top:-25px">&lang; &copy; 2018-<?php echo date('Y');?> &rang;<span>
+                </div> 
+            </div>        
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
