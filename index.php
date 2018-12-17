@@ -39,43 +39,41 @@
                         <div class="overlay" id="overlay">
                             <nav class="overlay-menu">
                                 <ul>
-                                    <li><a href="index.php?id=0.html"><?= $xml->page[0]->menu ;?></a></li>
-                                    <li><a href="index.php?id=1.html"><?= $xml->page[1]->menu ;?></a></li>
-                                    <li><a href="index.php?id=2.html"><?= $xml->page[2]->menu ;?></a></li>
-                                    <li><a href="index.php?id=3.html"><?= $xml->page[3]->menu ;?></a></li>
+                                    <li><a href="1.html"><?= $xml->page[0]->menu ;?></a></li>
+                                    <li><a href="2.html"><?= $xml->page[1]->menu ;?></a></li>
+                                    <li><a href="3.html"><?= $xml->page[2]->menu ;?></a></li>
+                                    <li><a href="4.html"><?= $xml->page[3]->menu ;?></a></li>
                                 </ul>
                             </nav>
                         </div> 
                         <!-- class="logo_colour", allows you to change the colour of the text -->
                         <h1><a href="index.html">Maçonnerie<span class="logo_colour">Ocordo</span></a></h1>
-                        <h2>Nous travaillons exclusivement pour les particuliers.</h2>
                     </div>
                 </div>
                 <div id="menubar">
                     <ul id="menu">
-                        <li><a href="index.php?id=0.html"><?= $xml->page[0]->menu ;?></a></li>
-                        <li><a href="index.php?id=1.html"><?= $xml->page[1]->menu ;?></a></li>
-                        <li><a href="index.php?id=2.html"><?= $xml->page[2]->menu ;?></a></li>
-                        <li><a href="index.php?id=3.html"><?= $xml->page[3]->menu ;?></a></li>
+                        <li><a href="1.html"><?= $xml->page[0]->menu ;?></a></li>
+                        <li><a href="2.html"><?= $xml->page[1]->menu ;?></a></li>
+                        <li><a href="3.html"><?= $xml->page[2]->menu ;?></a></li>
+                        <li><a href="4.html"><?= $xml->page[3]->menu ;?></a></li>
                     </ul>
                 </div>
             </div>
             <div id="site_content">
                 <div class="sidebar">
                     <div class="container-fluid">
-                        <div class="img1"><img src="http://entreprisetocco.fr/sites/default/files/slide-sepia_0.png" width="100%" /></div>
                         <?php                                               
                          if($_GET['id'] == '1.html'){?>                                        
-                        <div><?= $xml->page[1]->content ;?></div>               
+                        <div><?= $xml->page[0]->content ;?></div>               
                         <?php      
                          }else if ($_GET['id'] == '2.html'){?>         
-                        <div class="jumbotron"><?= $xml->page[2]->content ;?></div>
+                        <div class="jumbotron"><?= $xml->page[1]->content ;?></div>
                        <?php 
                         }else if ($_GET['id'] == '3.html'){?>
-                        <div><?= $xml->page[3]->content ;?></div>
+                        <div><?= $xml->page[2]->content ;?></div>
                         <?php
                         }else{?>               
-                        <div><?= $xml->page[0]->content ;?></div> 
+                        <div><?= $xml->page[3]->content ;?></div> 
                     <?php
                         }   
                         ?>

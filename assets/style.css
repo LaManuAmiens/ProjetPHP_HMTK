@@ -245,7 +245,7 @@ ul {
 #header {
     background-image: url(http://schlyce.com/product/btp/wp-content/plugins/wpi-designer-button-shortcode/images/help_bg2.png);
     background-size: 100%;
-    height: 200px;
+    height: 150px;
     position: fixed;
     width: 100%;
 }
@@ -253,7 +253,7 @@ ul {
 #logo {
     width: 825px;
     position: relative;
-    height: 168px;
+    height: 120px;
 }
 
 #logo #logo_text {
@@ -270,7 +270,7 @@ ul {
 }
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
-    padding: 28px 0 0 0;
+    padding: 20px 0 0 0;
     color: #FFF;
     letter-spacing: 0.1em;
     text-decoration: none;
@@ -326,7 +326,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover {
 #site_content {
     width: 880px;
     overflow: hidden; 
-    padding: 20px 24px 20px 37px;
+    padding: 200px 24px 20px 37px;
 } 
 
 .sidebar li {
