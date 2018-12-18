@@ -6,7 +6,7 @@ $xml = simplexml_load_file($file) or die("Error: Cannot create object");
 <html>
     <head>
         <meta charset="utf-8" />
-        <title><?= $xml->page[intval($_GET['id']) - 1]->title; ?></title>
+        <title><?php echo $xml->page[intval($_GET['id']) - 1]->title; ?></title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/style.css">
@@ -27,7 +27,7 @@ $xml = simplexml_load_file($file) or die("Error: Cannot create object");
                                     <?php
                                     foreach ($xml->page as $pageName) {
                                         ?>
-                                        <li><a href="<?= $pageName->attributes(); ?>.html"><?= $pageName->menu; ?></a></li>
+                                        <li><a href="<?php echo $pageName->attributes(); ?>.html"><?php echo $pageName->menu; ?></a></li>
                                         <?php
                                     }
                                     ?>
@@ -42,7 +42,7 @@ $xml = simplexml_load_file($file) or die("Error: Cannot create object");
                         <?php
                         foreach ($xml->page as $pageName) {
                             ?>
-                            <li><a href="<?= $pageName->attributes(); ?>.html"><?= $pageName->menu; ?></a></li>
+                            <li><a href="<?php echo $pageName->attributes(); ?>.html"><?php echo $pageName->menu; ?></a></li>
                             <?php
                         }
                         ?>
@@ -52,7 +52,7 @@ $xml = simplexml_load_file($file) or die("Error: Cannot create object");
             <div id="site_content">
                 <div class="sidebar">
                     <div class="container-fluid">
-                        <?= $xml->page[intval($_GET['id']) - 1]->content; ?>
+                        <?php echo $xml->page[intval($_GET['id']) - 1]->content; ?>
                     </div>
                 </div>
             </div>
